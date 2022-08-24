@@ -1,0 +1,13 @@
+[package]
+name = "imagev"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version="3.2.17", features = ["derive"]}
+image = "0.24.3"
+pixels = "0.9.0"
+thiserror = "1.0.32"
+winit = "0.27.2"
